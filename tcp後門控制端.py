@@ -3,7 +3,8 @@ import socket
 import colorama
 #伺服器
 colorama.init()
-
+#填你家公網ip並設定路由器通訊埠轉發
+#私有ip我不知道能不能但我記得也要做通訊埠轉發
 LHOST = "127.0.0.1"#127.0.0.1
 LPORT = 2222
 
